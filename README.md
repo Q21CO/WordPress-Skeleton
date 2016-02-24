@@ -1,3 +1,16 @@
+# Russell's Premium Plugin and Theme Overlay
+Includes:
+* Genesis Framework
+* Several Genesis Child Themes
+* Gravityforms Plugin
+* Numerous Gravityforms Add-ons
+* Optinmonster Plugin
+* Mandrill & Mandrill Multisite Plugins
+* Yoast SEO Plugin
+* Timber (twig) Plugin
+* Domain Mapping
+
+
 # WordPress Skeleton
 
 This is simply a skeleton repo for a WordPress site. Use it to jump-start your WordPress site repos, or fork it and customize it to your own liking!
