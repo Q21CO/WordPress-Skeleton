@@ -1,0 +1,50 @@
+-----------------------------------------------------------
+1.1.8
+    - Fixed a fatal error which could occur if the request used to validate the app secret key fails.
+
+-----------------------------------------------------------
+1.1.7
+	- Updated SSL compatibility check.
+
+-----------------------------------------------------------
+1.1.6
+	- Updated plugin compatibility check to verify existence of "openssl_random_pseudo_bytes" and "mcrypt_create_iv" functions.
+
+-----------------------------------------------------------
+1.1.5
+	- Added feed duplication support.
+	- Added "gform_dropbox_ssl_compatibility" filter to override SSL compatibility test.
+	- Fixed default label for Dropbox Upload field.
+	- Modified execution order of "gform_dropbox_post_upload".
+
+-----------------------------------------------------------
+1.1.4
+	- Added "gform_dropbox_post_upload" action that fires after a feed has been processed. See https://www.gravityhelp.com/documentation/article/gform_dropbox_post_upload/
+
+-----------------------------------------------------------
+1.1.3
+	- Updated SSL compatibility check to allow for 404 response codes.
+
+-----------------------------------------------------------
+1.1.2
+	- Fixed Update Settings button being hidden on plugin settings pages.
+
+-----------------------------------------------------------
+1.1.1
+	- Fixed PHP fatal error when initializing API.
+
+-----------------------------------------------------------
+1.1
+	- Added error message for versions of PHP that do not support 64-bit integers.
+	- Added some additional logging statements.
+	- Added SSL compatibility check to prevent plugin from running when SSL is not available.
+	- Fixed Dropbox PHP SDK autoloader from being included when if autoloader class already exists.
+	- Fixed Dropbox Upload field being included if custom app key and secret were not provided.
+	- Fixed files uploaded through the Dropbox Upload field not uploading to remote Dropbox.
+	- Removed debugging output from plugin settings page.
+	- Updated plugin settings with a more streamlined install process.
+	- Updated save URL functions to use WordPress API functions.
+
+-----------------------------------------------------------
+1.0
+	- It’s all new!
